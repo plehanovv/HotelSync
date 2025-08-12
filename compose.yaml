@@ -1,0 +1,7 @@
+﻿services:
+  hotelsync:
+    image: hotelsync
+    build:
+      context: .
+      dockerfile: HotelSync/Dockerfile
+
