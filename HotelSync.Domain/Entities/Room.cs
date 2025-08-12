@@ -10,7 +10,7 @@ public class Room : IAuditable, IEntityId<int>
     
     public string RoomNumber { get; set; } = string.Empty;
     
-    public string Type { get; set; } = string.Empty; // Например, "Standard", "Deluxe"
+    public string Type { get; set; } = string.Empty;
     
     public decimal PricePerNight { get; set; }
     
